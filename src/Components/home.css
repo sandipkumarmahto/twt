@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
