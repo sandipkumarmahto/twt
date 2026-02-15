@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(255,255,255);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-left: 50px;
+    margin-right: 50px;
+    padding:0;
+    margin-top: 0;
+    color: black;
+    /* display: flex;
+    justify-content: center; */
+}
+*{
+    font-family: inherit;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 275px 600px 350px;
+    width: 100%;
+    max-width: 1225px;
+    min-height: 100vh;   
+}
+/* navbar styles  start*/
+.navbar{
+    height: 100vh;
+    border-right:1px, solid, black;
+    padding-top:15px;
+  
+
+}
+.logo{
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.logo-nav{
+    width: 28px;
+}
+.nav-item{
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.nav-item:hover{
+    background-color:rgb(240, 237, 237);
+    border-radius: 25px;
+}
+
+.navbar-link{
+    display: block;
+    text-decoration: none;
+}
+.navbar-link svg{
+ display: inline;
+ width: 25px;
+ padding-right: 20px;
+}
+.navbar-link span{
+    color:black;
+    font-size: larger;
+    font-size: 20px;
+    
+}
+.logo-nav
+.navbar-link a{
+    color:black;
+    font-size: larger;
+}
+.nav-button{
+    background-color: black;
+    width: 225px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: large;
+    font-weight:bolder;
+}
+.profile-pic{
+    width: 40px;
+    border-radius: 50%;
+}
+.bottom-profile{
+    position: ralative;
+    left: 0;
+    bottom: 0;
+    padding-left: 15px;
+    
+    padding-bottom: 20px;
+}
+.bottom-profile img{
+    display: inline;
+}
+/* navbar styles end */
+.main{
+    border: 1px, solid ,black;
+    border-right: 1px, solid ,black;
+    height: 100vh;
+}
+.searchbar{
+    height: 100vh;
+    border:1px, solid, black;
+
+}
