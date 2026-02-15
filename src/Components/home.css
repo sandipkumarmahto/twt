@@ -1,18 +1,163 @@
-*{
+body{
+    background-color: rgb(255,255,255);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
 }
-
-.homepage{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    padding:0;
 }
 
 .main{
+    display:flex;
+    flex-direction: row;
+    height: 120vh;
+    max-width: 100%;     
+    padding:0;
+    margin: 0;
+
+}
+.logo{
+    flex:1;
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: center;
+    padding:32px;
+    align-items: center;
+    
+    
+}
+.logo img{
+    width: 350px;
+    height: 350px;
+}
+.nav{
+    flex: 1;
+    /* background-color: aqua; */
+    max-width: 100%;
+}
+.items{
     display: flex;
     flex-direction: column;
+    align-items: start;
+    padding-left: 65px;
+    padding-top:30px;
+    
+}
+.happening{
+    font-size: 75px;
+    padding-top: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+.join-today{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.signup-g{
+    width: 300px;
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px, solid, black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    
+}
+.signup-g img{
+    width: 25px;
+    padding-right: 8px;
+}
+.signup-a{
+    width: 300px;
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px, solid, black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.signup-a img{
+    width: 25px;
+    padding-right: 8px;
+}
+.or{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.create button{
+    width: 300px;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    padding:10px;
+    border-radius: 25px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.term{
+    font-size: 11px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.already{
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 20px;
 }
 
+.sign-in button{
+    width: 300px;
+    border: 1px, solid, black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(255,255,255);
+    margin-bottom: 15px;
+}
+.grok button{
+    width: 300px;
+    border: 1px, solid, black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(255,255,255);
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+/* Add this to remove the default browser gap */
+/* body {
+    margin: 0; /
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.logo {
+    flex: 1;
+    background-color: #ffcc00; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    flex: 1;
+    background-color: #00ffff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
